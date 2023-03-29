@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function toggleSidebar(ref){
+        document.getElementById("nav-links").classList.toggle('mobile-menu');
+        }
+    </script>
+    <title>Contact</title>
+</head>
+<body>
+    <header class="nav-bar" id="nav-bar">
+        <h1 class="logo"><span class="rose">My</span>Portfolio</h1>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Compétences</a></li>
+            <li><a href="contact.html">Contacter</a></li>
+        </ul>
+        <img src="menu.png" class="btn-m" onclick="toggleSidebar(this)">
+    </header>
+    <ul class="wrapper">
+        <li class="icon facebook">
+          <a href="https://web.facebook.com/glodi.kalala.5/"><span class="tooltip">Facebook</span>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </li></a>
+        <li class="icon twitter">
+          <a href="https://twitter.com/K_Diglo"><span class="tooltip">Twitter</span>
+          <span><i class="fab fa-twitter"></i></span>
+        </li></a>
+        <li class="icon instagram">
+          <a href="https://www.instagram.com/k.diglo/"><span class="tooltip">Instagram</span>
+          <span><i class="fab fa-instagram"></i></span>
+        </li></a>
+        <li class="icon github">
+          <a href="https://github.com/Glodi-K"><span class="tooltip">Github</span>
+          <span><i class="fab fa-github"></i></span>
+        </li></a>
+        <li class="icon LinkedIn">
+          <a href="https://www.linkedin.com/in/glodi-kalala-b75404123/?originalSubdomain=cd"><span class="tooltip">LinkedIn</span>
+          <i class="fa-brands fa-linkedin-in" style="color: #000000;"></i>        </li>
+      </ul></a>
+</body>
+</html>

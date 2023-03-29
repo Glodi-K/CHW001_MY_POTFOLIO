@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accueil.css">
+    <script>
+        function toggleSidebar(ref){
+        document.getElementById("nav-links").classList.toggle('mobile-menu');
+        }
+    </script>
+    <title>Accueil</title>
+</head>
+<body>
+    <header class="nav-bar" id="nav-bar">
+        <h1 class="logo"><span class="rose">My</span>Portfolio</h1>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Compétences</a></li>
+            <li><a href="contact.html">Contacter</a></li>
+        </ul>
+        <img src="menu.png" class="btn-m" onclick="toggleSidebar(this)">
+    </header>
+    
+    <div class="content">
+        <div class="part1">
+            <div class="a1">
+                <h1 class="pres">Salut, je suis<br> un développeur Web</h1><br>
+                <p class="txt1">
+                    Je me nomme <span class="rose">Glodi Kalala</span>.<br>
+                    Je suis un aspirant à la tâche de programmateur web professionnel.<br>
+                    Veuillez cliquez ci-dessous pour vous mettre en contact.
+                </p><br>
+                <a href="contact.html" ><button type="submit" class="btn1">Me contacter</button></a>
+            </div>
+            <div>
+                <img class="profile" src="c202c4ff-0606-4007-ba34-ebd7fa438391.JPG">
+            </div>
+        </div>
+        <div class="part2">
+            <font color="white">Services</font><br><br>
+            <h1>Liste de <span>compétences</span></h1><br>
+            <hr width="65 px" color="#f25081" size="5 px"><br>
+            <ul class="sets">
+                <li>
+                    <img class="icn1" src="html.png"><br><br>
+                    <p>HTML</p>
+                    ✪✪✪✩✩<br><br>
+                    Je suis en mesure de correctement et rapidement structurer la base de vos sites internet.
+                </li>
+                <li>
+                    <img class="icn1" src="css.png"><br><br>
+                    <p>CSS</p>
+                    ✪✪✩✩✩<br><br>
+                    Je possède des compétences en CSS permettant de qualitativement mettre en forme vos pages.
+                </li>
+                <li> <img class="icn1" src="javascript.png"><br><br>
+                    <p>JavaScript</p>
+                    ✪✩✩✩✩<br><br>
+                    Un site attrayant doit être intéractif ! J'utilise le JavaScript pour pouvoir rendre vivant vos sites.
+                </li>
+                <li>
+                    <img class="icn1" src="php.png"><br><br>
+                    <p>PHP</p>
+                    ✪✪✩✩✩<br><br>
+                    Pour vos formulaires à remplir et enregistrer dans des bases de données.
+                </li>
+                <li>
+                    <img class="icn1" src="python.png"><br><br>
+                    <p>Python</p>
+                    ✪✪✪✩✩<br><br>
+                    Pour automatiser vos intéractions avec les navigateurs web ou les interfaces graphiques de vos aplications.
+                </li>
+                <li>
+                    <img class="icn1" src="c++.png"><br><br>
+                    <p>C++</p>
+                    ✪✩✩✩✩<br><br>
+                    Pour la création d'applications mobiles ou même jeux-vidéos.
+
+                </li>
+            </ul>
+        </div>
+        <div class="part3">
+            <h1 class="txt3">Connectez-vous</h1><br>
+            <input type="email" placeholder="E-mail" name="mail"><br><br>
+            <input type="text" placeholder="Message" name="msg"><br><br>
+            <a href="#" class="p"><button class="btn2">Restez connectés</button></a>
+        </div>
+    </div>
+</body>
+</html>
